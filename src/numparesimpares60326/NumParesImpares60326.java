@@ -22,13 +22,11 @@ public class NumParesImpares60326 {
         
         while (num <= 100) {
             if (num%2 == 0) {
-                pares = num + pares;
-                
+                pares = num + pares;  
             } else {
                 impares = num + impares;
             }
             num++;
-            
         }
         System.out.println("La suma de los numeros pares es: " + pares);
         System.out.println("La suma de los numeros impares es: " + impares);
